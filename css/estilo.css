@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{    
+    font-family: 'Roboto';
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+#geral{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 6);
+}
+
+#cabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-lista{
+    display: flex;
+    width: 55%;
+    height: 90%;
+    background-color: rgba(32, 32, 32, 255);
+    color: white;
+}
+
+#container-lista>ul{
+    display: flex;
+    list-style: none;
+    margin-top: 23px;
+    width: 400px;
+    justify-content: end;
+    margin-left: 200px;
+}
+
+#container-lista>ul>li{
+    margin-right: 25px;
+}
+
+#container-lista>ul>li>a{
+    color: white;
+}
+
+#banner{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner>p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#equipe{
+    width: 100%;
+    height: 760px;
+    background-color: rgb(0, 0, 6);
+}
+
+#equipe>p{
+    margin-top: 30px;
+    margin-left: 550px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+#divs{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 6);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#direita, #centro, #esquerda{
+    background-color: #c14101;
+    width: 24%;
+    height: 100%;
+}
+
+#centro{
+    background-color: #019887;
+}
+
+#esquerda{
+    background-color: #ffab00;
+}
+
+.team{
+    height: 80px;
+    width: 80px;
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+#nome-equipe-1{
+    margin-left: 70px;
+    margin-top: 5px;
+    color: white;
+}
+
+#nome-equipe-2,#nome-equipe-3{
+    margin-left: 100px;
+    margin-top: 5px;
+    color: white;
+}
+
+#nome-equipe-3{
+    margin-left: 95px;
+    margin-top: 5px;
+}
+
+#direita>p,#centro>p,#esquerda>p{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+#btn-lkd-1,#btn-lkd-2,#btn-lkd-3{
+    height: 40px;
+    width: 170px;
+    margin-top: 45px;
+    margin-left: 72px;
+    border: white solid 2px;
+    background: transparent;
+    display: flex;
+}
+
+#img-lkd{
+    width: 27px;
+    height: 27px;
+    margin-left: 10px;
+    margin-top: 3.5px;
+}
+
+#btn-lkd-1>p,#btn-lkd-2>p,#btn-lkd-3>p{
+    margin-left: 20px;
+    font-size: 17px;
+    margin-top: 6px;
+    color: white;
+}
+
+#negocio{
+    width: 91.2%;
+    height: 230px;
+    background-color: rgba(32, 32, 32, 255);
+    margin: auto;
+    margin-top: 80px;
+    color: white;
+    display: flex;
+}
+
+#img-about{
+    width: 30%;
+    height: 230px;
+}
+
+#negocio>div{
+    width: 70%; 
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#negocio>div>h2{
+    font-size: 33px;    
+    font-weight: bold;
+
+}
+
+#negocio>div>p{
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#negocio>div>button{
+    height: 40px;
+    width: 170px;
+    border: grey solid 2px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#projetos{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(0, 0, 6);
+}
+
+#parte-cima{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#parte-cima>h2{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#parte-cima>p{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#parte-baixo{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+}
+
+.item-grid{
+    width: 240px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+}
+
+#espaco-btn{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-veja-mais{
+    width: 110px;
+    height: 40px;
+    border: grey solid 2px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;   
+    font-size: 15px;
+}
+
+#rodape{
+    width: 100%;
+    height: 60px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(32, 32, 32, 255);
+}
+
+#lado-esquerdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
